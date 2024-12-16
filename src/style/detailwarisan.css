@@ -1,0 +1,78 @@
+/* DetailWarisan.css */
+
+:root {
+    --primary-color: #4f46e5; /* Indigo */
+    --secondary-color: #f3f4f6; /* Light Gray */
+    --text-color: #111827; /* Dark Gray */
+    --border-color: #e5e7eb; /* Light Border */
+    --font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: var(--primary-color);
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .bg-white:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  p {
+    margin: 0.75rem 0;
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: var(--primary-color);
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  }
+  
